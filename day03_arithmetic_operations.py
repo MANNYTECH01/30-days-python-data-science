@@ -4,4 +4,5 @@ total_expenses = sum(expenses)
 average_expense = total_expenses / len(expenses)
 
 print("Total expenses:", total_expenses)
+
 print("Average expense:", average_expense)
