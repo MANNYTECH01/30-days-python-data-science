@@ -49,15 +49,24 @@ The objective of this project is to build strong foundations in programming, num
 ## 📂 Project Structure
 30-days-python-data-science/
 │
+
 ├── day01_intro.py
+
 ├── day02_variables_datatypes.py
+
 ├── day03_arithmetic_operations.py
+
 ├── day04_strings.py
+
 ├── ...
+
 ├── day21_selection_filtering.py
+
 │
 ├── data/
+
 │ └── employees.csv
+
 │
 └── README.md
 
