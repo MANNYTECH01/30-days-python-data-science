@@ -2,7 +2,7 @@
 
 This repository documents my 30-day learning journey in Python for Data Science.
 
-The objective of this project is to build strong foundations in programming, numerical computing, data visualization, and structured data analysis using Python.
+The objective of this project is to build strong foundations in programming, numerical computing, data visualization, structured data analysis, and machine learning using Python.
 
 ---
 
@@ -12,10 +12,12 @@ The objective of this project is to build strong foundations in programming, num
 - NumPy (Numerical Computing)
 - Matplotlib (Data Visualization)
 - Pandas (Data Manipulation & Analysis)
+- Seaborn (Statistical Visualization)
+- Scikit-learn (Machine Learning)
 
 ---
 
-## 📚 Topics Covered (Day 1 – Day 21)
+## 📚 Topics Covered (Day 1 – Day 23)
 
 ### Python Fundamentals
 - Day 1: Introduction to Python
@@ -43,46 +45,51 @@ The objective of this project is to build strong foundations in programming, num
 - Day 19: DataFrame Inspection Methods
 - Day 20: Importing Data from CSV
 - Day 21: Selection & Filtering in DataFrames
+- Day 22: GroupBy & Aggregation
+- Day 23: Data Cleaning & Handling Missing Values
+
+---
+
+## 📅 Upcoming Topics (Day 24 – Day 30)
+
+- Day 24: Feature Engineering
+- Day 25: Exploratory Data Analysis (EDA)
+- Day 26: Statistical Visualization with Seaborn
+- Day 27: Introduction to Scikit-learn & Preprocessing Pipelines
+- Day 28: Linear Regression — Training & Evaluation
+- Day 29: Classification — Logistic Regression & Confusion Matrix
+- Day 30: End-to-End Mini Project
 
 ---
 
 ## 📂 Project Structure
+
+```
 30-days-python-data-science/
 │
-
 ├── day01_intro.py
-
 ├── day02_variables_datatypes.py
-
-├── day03_arithmetic_operations.py
-
-├── day04_strings.py
-
 ├── ...
-
-├── day21_selection_filtering.py
-
+├── day23_data_cleaning.py
 │
 ├── data/
-
-│ └── employees.csv
-
+│   └── employees.csv
 │
-
 └── README.md
-
+```
 
 ---
 
 ## 📊 Dataset
 
-A sample dataset (`employees.csv`) is included for practice with Pandas.  
+A sample dataset (`employees.csv`) is included for practice with Pandas.
 It is used to demonstrate:
 
 - Data inspection
 - Importing CSV files
 - Filtering and selection
-- Basic data analysis operations
+- GroupBy and aggregation
+- Data cleaning operations
 
 ---
 
@@ -93,9 +100,7 @@ This repository reflects:
 - Consistent daily practice
 - Structured learning progression
 - Application of concepts immediately after learning
-- A transition from Python fundamentals to practical data analysis
-
-The journey is ongoing, with upcoming topics including grouping, aggregation, visualization with Pandas, and mini data projects.
+- A progression from Python fundamentals to applied machine learning
 
 ---
 
