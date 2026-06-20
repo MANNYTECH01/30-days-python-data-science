@@ -1,8 +1,10 @@
 # 30 Days of Python for Data Science
 
-This repository documents my 30-day learning journey in Python for Data Science.
+This repository documents a 30-day learning journey in Python for Data Science, progressing from core programming fundamentals to applied machine learning on a real-world dataset.
 
-The objective of this project is to build strong foundations in programming, numerical computing, data visualization, structured data analysis, and machine learning using Python.
+The objective of this project was to build strong foundations in programming, numerical computing, data visualization, structured data analysis, and machine learning using Python.
+
+**Status: Complete (Day 1 – Day 30)**
 
 ---
 
@@ -17,7 +19,7 @@ The objective of this project is to build strong foundations in programming, num
 
 ---
 
-## 📚 Topics Covered (Day 1 – Day 23)
+## 📚 Topics Covered
 
 ### Python Fundamentals
 - Day 1: Introduction to Python
@@ -47,18 +49,15 @@ The objective of this project is to build strong foundations in programming, num
 - Day 21: Selection & Filtering in DataFrames
 - Day 22: GroupBy & Aggregation
 - Day 23: Data Cleaning & Handling Missing Values
-
----
-
-## 📅 Upcoming Topics (Day 24 – Day 30)
-
 - Day 24: Feature Engineering
 - Day 25: Exploratory Data Analysis (EDA)
 - Day 26: Statistical Visualization with Seaborn
+
+### Machine Learning with Scikit-learn
 - Day 27: Introduction to Scikit-learn & Preprocessing Pipelines
 - Day 28: Linear Regression — Training & Evaluation
 - Day 29: Classification — Logistic Regression & Confusion Matrix
-- Day 30: End-to-End Mini Project
+- Day 30: End-to-End Project — Titanic Survival Prediction
 
 ---
 
@@ -70,26 +69,35 @@ The objective of this project is to build strong foundations in programming, num
 ├── day01_intro.py
 ├── day02_variables_datatypes.py
 ├── ...
-├── day23_data_cleaning.py
+├── day29_logistic_regression.py
+├── day30_titanic_project.py
 │
 ├── data/
-│   └── employees.csv
+│   ├── employees.csv
+│   └── titanic.csv
 │
 └── README.md
 ```
 
 ---
 
-## 📊 Dataset
+## 📊 Datasets
 
-A sample dataset (`employees.csv`) is included for practice with Pandas.
-It is used to demonstrate:
+- `employees.csv` — sample dataset used for practice with Pandas, GroupBy, feature engineering, and early scikit-learn workflows.
+- `titanic.csv` — real-world dataset from Kaggle, used in the Day 30 end-to-end project to predict passenger survival.
 
-- Data inspection
-- Importing CSV files
-- Filtering and selection
-- GroupBy and aggregation
-- Data cleaning operations
+---
+
+## 🎯 Final Project: Titanic Survival Prediction
+
+The series closes with a complete machine learning pipeline applied to a real dataset:
+
+- Data cleaning and handling of missing values
+- Feature engineering (family size, travelling alone flag)
+- Categorical encoding
+- Exploratory analysis of survival patterns by sex, class, and family size
+- Logistic Regression model training and evaluation
+- Performance assessment using accuracy, a confusion matrix, and a classification report
 
 ---
 
@@ -97,15 +105,15 @@ It is used to demonstrate:
 
 This repository reflects:
 
-- Consistent daily practice
-- Structured learning progression
+- Consistent daily practice over 30 days
+- Structured learning progression from fundamentals to machine learning
 - Application of concepts immediately after learning
-- A progression from Python fundamentals to applied machine learning
+- A complete path from Python basics to a working ML model on real data
 
 ---
 
 ## 📌 About
 
-This project is part of a continuous learning effort toward mastering Data Science and AI fundamentals.
+This project was completed as part of a continuous learning effort toward mastering Data Science and AI fundamentals.
 
 Learning publicly. Building consistently.
